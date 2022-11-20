@@ -11,25 +11,56 @@
       >
 
       <title>English Class Books</title>
+      <style>
+        #screen {
+          background-color: beige;
+          height: 100vwh;
+          width: 100vw;
+        }
+
+        h1 {
+          text-align: left;
+          font-size: 50px;
+        }
+
+        .title {
+          text-transform: lowercase;
+          color: rgb(74, 144, 226);
+          font-family: Helvetica, sans-serif;
+        }
+
+        .list {
+          text-transform: lowercase;
+          color: rgb(249, 206, 120);
+          font-family: Helvetica, sans-serif;
+        }
+
+        .thought {
+          text-transform: lowercase;
+          color: rgb(235, 113, 113);
+          font-family: Helvetica, sans-serif;
+        }
+      </style>
 
   </head>
 
-  <body>
+  <body id="screen">
     <div>
-      <h1 class="big-headline">
-          Freshman English Class Books
+      <h1>
+          <span class="title">Freshman English Class Books</span>
       </h1>
     </div>
 
     <div>
-        <ul class="Authors">
+        <ul class="list">
             <li>Thomas Pynchon</li>
             <li>Cormac McArthy</li>
             <li>Mary Oliver</li>
             <li>E.O. Wilson</li>
+            <li>John Bellamy Foster</li>
         </ul>
 
-        <p>Thought of the day: Your democracy is only as good as your educational system.</p>
+        <p class="thought">Thought of the day: Your democracy is only as good as your educational system.</p>
     </div>
   </body>
 
